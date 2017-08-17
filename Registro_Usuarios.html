@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Nutri-U</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+ <link href="assets/estilos.css" rel="stylesheet">
+
+<script src="assets/js/Logica.js"></script>
+
+</head>
+
+<header>
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="Principal.html">ConsultaEnLinea</a>
+		</div>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="Inicio_Sesion.html"><span class="glyphicon glyphicon-log-in"></span>  <i>Inicio de Sesion</i></a></li>
+		</ul>
+	</div>
+</nav>
+</header>
+
+<body>
+	  <form id="datos" method="get" action= "">
+
+		<div class = "form-group">
+				<h2>Registro de Usuario</h2> <br />
+			</div>
+	 <div class="form-group">
+		 <label for="user">Nombre:</label>
+		 <input type="text" class="form-control" id="Nombre">
+	 </div>
+	 <div class="form-group">
+		 <label for="pwd">Apellidos:</label>
+		 <input type="text" class="form-control" id="Apellidos">
+	 </div>
+	 <div class="form-group">
+		 <label for="pwd">Telefono:</label>
+		 <input type="text" class="form-control" id="Telefono">
+	 </div>
+	 <div class="form-group">
+		 <label for="pwd">Usuario:</label>
+		 <input type="text" class="form-control" id="Usuario">
+	 </div>
+	 <div class="form-group">
+		 <label for="pwd">Contraseña:</label>
+		 <input type="text" class="form-control" id="Contrasena">
+	 </div>
+
+	<div class="form-group">
+	<label> <a href="Inicio_Sesion.html">Ya eres un usuario?</a> </label>
+ </div>
+
+	 <button type="submit" onclick = "guardarUsuario()" class="btn btn-default"> <a href="Principal.html"> Guardar</a>
+ </form>
+
+</body>
+
+
+</html>
